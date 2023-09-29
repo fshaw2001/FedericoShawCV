@@ -1,0 +1,88 @@
+body{
+  background: #323232;
+  }
+.datos, .datos * {
+   box-sizing: border-box;
+   }
+
+nav{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: row-reverse;
+  }
+  
+ul{
+  display: flex;
+  list-style-type: none;
+  flex-direction: row-reverse;
+  margin: 30px;
+  padding: 10px;
+  }
+
+.boton{
+  background: #0D7377;
+    width: 275px;
+    margin: 100px;
+  color: #FFFFFF;
+  font: 35px 'IM FELL Double Pica SC', sans-serif;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 30px;
+  }
+
+
+.texto{
+  background: #0d7377;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+  color: #ffffff;
+  text-align: center;
+  font: 28px 'IM FELL Double Pica SC', 'IM FELL Double Pica SC';
+  padding: 30px;
+  }
+
+.foto{
+  border-radius: 45%;
+  width: 348px;
+  height: 348px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+.titulo{
+  background: #0d7377;
+  color: #FFFFFF;
+  font: 70px 'IM FELL Double Pica SC', 'IM FELL Double Pica SC';
+  text-align: center;
+  border-radius: 30px;
+  padding: 30px;
+  letter-spacing: 5px;
+}
+
+@font-face {
+   color: #ffffff;
+   font-family: 'IM FELL Double Pica SC';
+   src: url("Datos\IMFellDoublePicaSC-Regular") format("truetype");
+   font-style: normal;
+   font-weight: normal;
+}
+
+@media (max-width: 768px){
+
+  ul{
+    flex-direction: column-reverse;
+  }
+
+  .foto{
+    width: 70%;
+    align-self: center;
+  }
+}
