@@ -9,10 +9,10 @@ document.getElementById('enviarBtn').addEventListener('click', function() {
   
   var mensajeRespuesta = document.getElementById('mensajeRespuesta');
   mensajeRespuesta.style.display = 'block';
-  mensajeRespuesta.innerHTML = 'Gracias ' + nombre + ', por contactarme. Me estaré comunicando a la brevedad.';
+  mensajeRespuesta.innerHTML = 'Muchas gracias ' + nombre + ',cuando la pala me llame te contacare.';
 });
 
 
 document.getElementById('enviarBtn').addEventListener('click', function() {
-  alert('¡Formulario enviado con éxito!');
+  alert('¡Por favor no mandes mas mensajes!');
 });
